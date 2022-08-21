@@ -145,35 +145,75 @@ public class Practice {
         // int allow = 0;
         // basic = sc.nextInt();
         // String ch = sc.next();
-        // char grade = ch.charAt(0); // we assigned char here cause system wont understand A as A
+        // char grade = ch.charAt(0); // we assigned char here cause system wont
+        // understand A as A
         // hra = basic * 20 / 100;
         // da = basic * 50 / 100;
         // pf = basic * 11 / 100;
         // if (grade >= 65 && grade <= 90) { // 65 and 90 are ascii values of A nd B
-        //     if (grade == 'A') { // grade is turned into char so that it could unerstand char A nd B
-        //         allow = 1700;
-        //     } else if (grade == 'B') {
-        //         allow = 1500;
-        //     } else {
-        //         allow = 1300;
-        //     }
+        // if (grade == 'A') { // grade is turned into char so that it could unerstand
+        // char A nd B
+        // allow = 1700;
+        // } else if (grade == 'B') {
+        // allow = 1500;
         // } else {
-        //     System.out.println("not a valid letter");
+        // allow = 1300;
+        // }
+        // } else {
+        // System.out.println("not a valid letter");
         // }
         // int totalSalary = basic + hra + da + allow - pf;
         // System.out.println("total salary is " + totalSalary);
 
-
-// Q. Enter table of n number taken from user
+        // Q. Enter table of n number taken from user
 
         // System.out.println("enter number");
         // int n = sc.nextInt();
         // System.out.println("table of "+n+ " is");
         // for(int i= 1; i<=10; i++){
-        //     System.out.println(n*i);
+        // System.out.println(n*i);
         // }
-    
 
 
-    }
+        /*
+         * Q. Write a program to input an integer N and print the sum of all its even
+         * digits and
+         * sum of all its odd digits separately.
+         * Digits mean numbers, not the places! That is, if the given integer is
+         * "13245", even digits are 2 & 4 and
+         * odd digits are 1, 3 & 5.
+         */
+
+        // System.out.println("enter number ");
+        // int n = sc.nextInt();
+        // int rem;
+        // int evenSum = 0;
+        // int oddSum = 0;
+        // while (n > 0) {
+        //     rem = n % 10;
+        //     if (rem % 2 == 0) {
+        //         evenSum = evenSum + rem;
+        //     } else {
+        //         oddSum = oddSum + rem;
+        //     }
+        //     n = n / 10;
+        // }
+        // System.out.println(evenSum + " " + oddSum);
+
+        
+    //Q. Write a program to print all the factors of a number other than 1 and 
+    //the number itself.
+        
+     System.out.println("enter number ");
+        int n = sc.nextInt();
+        int i =1; //
+        int factor=0;
+        while(i< n){
+            if(n%i==0){
+                factor = 0 + i; 
+                System.out.print(factor+" ");
+            }
+            i++;
+    }   
+}
 }
