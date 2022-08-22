@@ -174,7 +174,6 @@ public class Practice {
         // System.out.println(n*i);
         // }
 
-
         /*
          * Q. Write a program to input an integer N and print the sum of all its even
          * digits and
@@ -190,30 +189,93 @@ public class Practice {
         // int evenSum = 0;
         // int oddSum = 0;
         // while (n > 0) {
-        //     rem = n % 10;
-        //     if (rem % 2 == 0) {
-        //         evenSum = evenSum + rem;
-        //     } else {
-        //         oddSum = oddSum + rem;
-        //     }
-        //     n = n / 10;
+        // rem = n % 10;
+        // if (rem % 2 == 0) {
+        // evenSum = evenSum + rem;
+        // } else {
+        // oddSum = oddSum + rem;
+        // }
+        // n = n / 10;
         // }
         // System.out.println(evenSum + " " + oddSum);
 
-        
-    //Q. Write a program to print all the factors of a number other than 1 and 
-    //the number itself.
-        
-     System.out.println("enter number ");
-        int n = sc.nextInt();
-        int i =1; //
-        int factor=0;
-        while(i< n){
-            if(n%i==0){
-                factor = 0 + i; 
-                System.out.print(factor+" ");
-            }
-            i++;
-    }   
-}
+        // Q. Write a program to print all the factors of a number other than 1 and
+        // the number itself.
+
+        // System.out.println("enter number ");
+        // int n = sc.nextInt();
+        // int i =1; //
+        // int factor=0;
+        // while(i< n){
+        // if(n%i==0){
+        // factor = 0 + i;
+        // System.out.print(factor+" ");
+        // }
+        // i++;
+
+        /*
+         * Q. Write a program to find x to the power n (i.e. x^n). Take x and n from the
+         * user.
+         * You need to print the answer.
+         */
+
+        // normal star pattern
+
+        // System.out.println("enter number");
+        // int n = sc.nextInt();
+        // System.out.println("enter power");
+        // int pow = sc.nextInt();
+        // int result =1;
+        // for(int i =1; i<=pow; i++){
+        // result =result*n;
+        // }
+        // System.out.println(result);
+
+        // square pattern
+
+        // int n= sc.nextInt();
+        // for(int i = 1; i<=n; i++){ //outer loop is for rows
+        // for(int j=1; j<=n; j++){ //inner loop is for main operation
+        // System.out.print(" "+i);
+        // }
+        // System.out.println();
+        // }
+
+        // int n= sc.nextInt();
+        // for(int i = 1; i<=n; i++){ 
+        // for(int j=1; j<=n; j++){ 
+        // System.out.print(" "+j);
+        // }
+        // System.out.println();
+        // }
+
+        // int n= sc.nextInt();
+        // for(int i = 1; i<=n; i++){ 
+        // for(int j=n; j>=1; j--){ 
+        // System.out.print(" "+j);
+        // }
+        // System.out.println();
+        // }
+
+        // traingular pattern
+
+        // int n= sc.nextInt();
+        // for(int i = 1; i<=n; i++){
+        // for(int j=1; j<=i; j++){ // j<=i; main condn 
+        // System.out.print(" "+j);
+        // }
+        // System.out.println();
+        // }
+
+
+        // int n = sc.nextInt();
+        // int p = 1;
+        // for (int i = 1; i <= n; i++) { 
+        //     for (int j = 1; j <= i; j++) { 
+        //         System.out.print(" " + p);  // addn of p in code is mai condn or logic behind soln
+        //         p++;
+        //     }
+        //     System.out.println();
+        // }
+    }
 }
