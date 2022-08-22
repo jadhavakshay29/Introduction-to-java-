@@ -242,16 +242,16 @@ public class Practice {
         // }
 
         // int n= sc.nextInt();
-        // for(int i = 1; i<=n; i++){ 
-        // for(int j=1; j<=n; j++){ 
+        // for(int i = 1; i<=n; i++){
+        // for(int j=1; j<=n; j++){
         // System.out.print(" "+j);
         // }
         // System.out.println();
         // }
 
         // int n= sc.nextInt();
-        // for(int i = 1; i<=n; i++){ 
-        // for(int j=n; j>=1; j--){ 
+        // for(int i = 1; i<=n; i++){
+        // for(int j=n; j>=1; j--){
         // System.out.print(" "+j);
         // }
         // System.out.println();
@@ -261,21 +261,31 @@ public class Practice {
 
         // int n= sc.nextInt();
         // for(int i = 1; i<=n; i++){
-        // for(int j=1; j<=i; j++){ // j<=i; main condn 
+        // for(int j=1; j<=i; j++){ // j<=i; main condn
         // System.out.print(" "+j);
         // }
         // System.out.println();
         // }
 
-
         // int n = sc.nextInt();
         // int p = 1;
-        // for (int i = 1; i <= n; i++) { 
-        //     for (int j = 1; j <= i; j++) { 
-        //         System.out.print(" " + p);  // addn of p in code is mai condn or logic behind soln
-        //         p++;
-        //     }
-        //     System.out.println();
+        // for (int i = 1; i <= n; i++) {
+        // for (int j = 1; j <= i; j++) {
+        // System.out.print(" " + p); // addn of p in code is mai condn or logic behind
+        // soln
+        // p++;
         // }
+        // System.out.println();
+        // }
+
+        int n= sc.nextInt();
+        for(int i = 1; i<=n; i++){   
+               int p =i;  // main logic behind soln
+             for(int j=1; j<=i; j++){
+                System.out.print(" "+p);
+                p++;
+             }
+             System.out.println();
+        }
     }
 }
