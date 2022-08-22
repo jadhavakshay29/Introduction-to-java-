@@ -278,14 +278,55 @@ public class Practice {
         // System.out.println();
         // }
 
-        int n= sc.nextInt();
-        for(int i = 1; i<=n; i++){   
-               int p =i;  // main logic behind soln
-             for(int j=1; j<=i; j++){
-                System.out.print(" "+p);
+        // int n= sc.nextInt();
+        // for(int i = 1; i<=n; i++){
+        // int p =i; // main logic behind soln
+        // for(int j=1; j<=i; j++){
+        // System.out.print(" "+p);
+        // p++;
+        // }
+        // System.out.println();
+        // }
+
+        // int n = sc.nextInt();
+        // for(int i =1; i<=n; i++){
+        // for(int j=i; j>=1; j--){ //main logic behind the soln
+        // System.out.print(j+" ");
+        // }
+        // System.out.println();
+        // }
+
+        // alphabet patterns
+
+        // int n = sc.nextInt(); //no of rows and cols
+        // for(int i= 1; i<=n; i++){
+        // for(int j=1; j<=n; j++){
+        // char alpha = (char)('A' +j-1); //main logic behind soln aslo expicit
+        // conversion as j is int and ans in char
+        // System.out.print(alpha);
+        // }
+        // System.out.println();
+        // }
+
+        // int n = sc.nextInt();
+        // for (int i = 1; i <= n; i++) {
+        //     for (int j = 1; j <= i; j++) {
+        //         char alpha = (char) ('A' + i - 1); //main logic behind soln 
+        //         System.out.print(alpha);
+        //     }
+        //     System.out.println();
+        // }
+
+        int n=sc.nextInt();
+        for(int i=1; i<=n; i++){
+            int p = i;
+            for(int j=1; j<=i; j++){
+                char alpha = (char)('A'+p-1);
+                System.out.print(alpha+" ");
                 p++;
-             }
-             System.out.println();
+            }
+            System.out.println();
         }
+
     }
 }
