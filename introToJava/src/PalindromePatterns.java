@@ -21,7 +21,7 @@ public class PalindromePatterns {
             for (int j = 1; j <= n - i; j++) {
                 System.out.print(" ");
             }
-            //for first half
+            //for second half
             for (int j = 1; j <= 2*i-1; j++) {
                 System.out.print("*");
             }
