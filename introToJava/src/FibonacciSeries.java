@@ -3,7 +3,7 @@ import java.util.*;
 
 public class FibonacciSeries {
     public static void main(String[] args) {
-      Scanner sc = new Scanner(System.in);  
+    //   Scanner sc = new Scanner(System.in);  
     //   System.out.println("enter nth number");
     //   int n = sc.nextInt();
     //   System.out.println("enter number to be find");

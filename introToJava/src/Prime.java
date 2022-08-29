@@ -71,7 +71,21 @@ public class Prime {
         // System.out.println(n + " is prime number");
         // }
 
-        
+
+//code for prime numbers between 2 to nth number 
+
+
+        // System.out.println("enter nth number ");
+        // int n = sc.nextInt();
+        // System.out.println("prime numbers between 2 to "+ n +" are ");
+        //    for(int i =2; i<=n; i++){
+    
+        //           if(i%2==0 || i==3 || i<1 || i%3==0 ){
+        //              continue;
+        //           }
+                  
+        //           System.out.println(i);
+        //     }
 
     }
 }
