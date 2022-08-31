@@ -19,6 +19,6 @@ public class Arrays {
            System.out.println(name[i]);
 
        }
-       main(null); //for continuation of program
+       
    }
 }

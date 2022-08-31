@@ -10,9 +10,7 @@ public class LiveClass {
         for(int i =0; i< n; i++){
             dish[i] = sc.nextInt();
         }
-        
-            System.out.println(dish[0]);
 
+            System.out.println(dish[0]);
     }
-    
 }
