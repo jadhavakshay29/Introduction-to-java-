@@ -167,7 +167,7 @@ public class Practice {
         // int totalSalary = basic + hra + da + allow - pf;
         // System.out.println("total salary is " + totalSalary);
 
-        // Q. Enter table of n number taken from user
+    // Q. Enter table of n number taken from user
 
         // System.out.println("enter number");
         // int n = sc.nextInt();
@@ -176,8 +176,8 @@ public class Practice {
         // System.out.println(n*i);
         // }
 
-        /*
-         * Q. Write a program to input an integer N and print the sum of all its even
+ /*
+ * Q. Write a program to input an integer N and print the sum of all its even
          * digits and
          * sum of all its odd digits separately.
          * Digits mean numbers, not the places! That is, if the given integer is
@@ -201,7 +201,8 @@ public class Practice {
         // }
         // System.out.println(evenSum + " " + oddSum);
 
-        // Q. Write a program to print all the factors of a number other than 1 and
+        
+// Q. Write a program to print all the factors of a number other than 1 and
         // the number itself.
 
         // System.out.println("enter number ");
