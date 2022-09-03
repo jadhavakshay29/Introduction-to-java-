@@ -11,7 +11,7 @@ public class LiveClass {
         //     dish[i] = sc.nextInt();
         // }
         //     System.out.println(dish[0]);
-
+        
     
         
 
