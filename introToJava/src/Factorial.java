@@ -3,15 +3,14 @@ import java.util.*;
 public class Factorial {
     public static void main (String arg[]){
         Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
         int m = sc.nextInt();
 
-        for(int i = 0; i< n; i++){
-            System.out.println(i);
+        int fact = 1;
+        
+        for(int j = 1; j <= m;j++ ){
+             fact = fact*j;
         }
-        for(int j = 0; j < m;j++ ){
-            System.out.println(j);
-        }
+        System.out.print(fact);
     }
     }
 

@@ -347,6 +347,24 @@ public class patterns {
         //     System.out.println();
         // }
 
+// *
+// *^*
+// *^^*
+// *^^^*
+// ******
+                int N = sc.nextInt();
+           System.out.println("*");
+               for(int i =0; i<N-2; i++){
+                  System.out.print("*");
+   
+             for(int j =0; j<=i; j++){
+                  System.out.print("^");
+               }
+                 System.out.println("*");
+                }
+             for(int i =1; i<N+2; i++){
+                  System.out.print("*");
+                }
 
     }
 }
