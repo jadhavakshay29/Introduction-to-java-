@@ -7,7 +7,7 @@ public class LiveClass {
     //     int x = sc.nextInt();
     //      evenN(x);
     // }
-
+ 
     // public static void evenN(int n){
        
     //     for(int i= 2; i<=n; i+=2){
