@@ -1,7 +1,7 @@
 package NewtonBasics;
 import java.util.*;
 
-public class LiveClass {
+public class BoundryTraversal {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int t = sc.nextInt();
@@ -23,7 +23,7 @@ public class LiveClass {
              
          }
     }
-
+//new function 
     public static void boundryTraversal(int n, int m, int arr[][]){
         //firstn row
          for(int i =0; i<m; i++){

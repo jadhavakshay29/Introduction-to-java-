@@ -24,28 +24,28 @@ public class Prime {
     // final fully optimised code for prime number
     public static void main(String arg[]) {
         Scanner sc = new Scanner(System.in);
-        // System.out.println("enter number");
-        // int n = sc.nextInt();
-        // boolean result = primeNumber(n);
-        // sc.close();
-        // if(result){
-        // System.out.println("number is prime number");
-        // }else{
-        // System.out.println("number is not prime number");
-        // }
-        // }
+        System.out.println("enter number");
+        int n = sc.nextInt();
+        boolean result = primeNumber(n);
+        sc.close();
+        if(result){
+        System.out.println("number is prime number");
+        }else{
+        System.out.println("number is not prime number");
+        }
+        }
 
-        // //new function for conditions
-        // public static boolean primeNumber(int n){
-        // if (n<=1)return false ;
-        // if (n==2 || n== 3) return true;
-        // if (n%2 == 0) return false ;
-        // for ( int i=3; i <=n; i+=2){
-        // if (n%i==0){
-        // return false;
-        // }
-        // }
-        // return true;
+        //new function for conditions
+        public static boolean primeNumber(int n){
+        if (n<=1)return false ;
+        if (n==2 || n== 3) return true;
+        if (n%2 == 0) return false ;
+        for ( int i=3; i <=n; i+=2){
+        if (n%i==0){
+        return false;
+        }
+        }
+        return true;
 
         // Q. prime number with different approach
 
