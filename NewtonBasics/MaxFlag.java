@@ -1,37 +1,51 @@
 package NewtonBasics;
+
 import java.util.*;
 
 public class MaxFlag {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        int m = sc.nextInt();
-        int arr[] = new int[n]; //1st array 00000
-        int brr[] = new int [m];
-        int i=0;
-        for(; i<n; i++){ // array 1
-            arr[i]=0;
-        }
-        int j=0;
-        for(; j<m; j++){ // array 2
-            brr[j]= sc.nextInt();
-        }
+        int t = sc.nextInt();
+        int[] a = new int[100000];
+        int[] b = new int[100001];
+        while (t > 0) {
+            int n = sc.nextInt();
+            int m = sc.nextInt();
 
-        for(int k=0; k<n; k++){
-            if(1 <= arr[i] && arr[i] <= n){
-                arr[j] = arr[i] +1;
-                System.out.println(arr[j]);
-            }else if(arr[j]==n+1){
-                arr[i] = arr[j];
-                System.out.println(arr[i]);
+            for (int i = 0; i < m; i++) {
+                a[i] = sc.nextInt();
             }
-            
 
+            for (int i = 1; i <= n; i++) {
+                b[i] = 0;
+            }
+            for (int i = 0; i < m; i++) {
+                if (a[i] <= n && a[i] >= 1) {
+                    b[a[i]] = b[a[i]] + 1;
+                } else if (a[i] == n + 1) {
+
+                    for (int j = 1; j < n; j++) {
+                        if (b[j] > b[j + 1]) {
+                            int temp = b[j];
+                              b[j] = b[j + 1];
+                              b[j + 1] = temp;
+
+                        }
+
+                    }
+                    for (int k = 1; k <= n; k++) {
+                        b[k] = b[n];
+
+                    }
+                }
+
+            }
+            for (int i = 1; i <= n; i++) {
+                System.out.print(b[i] + " ");
+            }
+            System.out.println("");
+
+            t--;
         }
-
-        
-
-        
-
     }
 }
