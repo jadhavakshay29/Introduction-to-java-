@@ -2,7 +2,7 @@ package NewtonBasics;
 import java.util.*;
 // finding number using 
 public class BinarySearch {
-
+// l is first number and r is last number  
     public static void binarySearch(int arr[],int l,int r,int k){ 
         //condition to check if r crosses l or not 
     if(r>=l) {
@@ -33,8 +33,9 @@ public class BinarySearch {
             arr[i]=sc.nextInt();
         }
         int k=sc.nextInt();
+        sc.close();
 
         binarySearch(arr,0,n-1,k);
     }
- }
-
+ 
+}
